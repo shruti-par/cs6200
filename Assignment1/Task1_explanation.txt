@@ -1,0 +1,13 @@
+Web crawling using two techniques - 
+    Breadth first search
+    Depth first search
+   
+On comparing the output of the two techniques, it can be observed that there is an overlap of 14 links. This is not a huge overlap
+considering that we are looking at 1000 urls.
+
+Coverage of topic and efficiency of searches - 
+    The BFS appears to efficiently crawl the web and access urls related to the seed url. The search is related to the topic but not in
+    depth of the topic. Thus, it is a broad search of the topic.
+    
+    THe DFS appears to crawl the web and access in depth urls starting from the seed url. The urls start diverging from the main topic as
+    the depth of the search increases. Thus, this search reaches deeper into the topic.
