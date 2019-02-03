@@ -151,7 +151,7 @@ if __name__ == "__main__":
 
     # Accepting keyword list from user to conduct focused BFS
     keyword_list = input("\nPlease enter keywords to be used for focused crawling (separated by a pipe (|) ): ").split('|')
-    # Mars|Rover|Orbiter|Pathfinder|Mars Mission|Mars Exploration
+    # Martian|Rover|Orbit|Pathfinder|Mars Mission|Mars Exploration|Red Planet
 
     # Initiating the crawl using the seed url
     web_crawler = WebCrawler(seed)
