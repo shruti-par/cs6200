@@ -7,12 +7,14 @@ Files to be executed -
   web_crawler.py
   compare_searches.py
   count_duplicates.py
+  html_downloads.py
   
 Libraries used - 
   requests
   re
   BeautifulSoup
   sleep
+  os
   
 After compilation, 
   running web_crawler.py - 
@@ -26,6 +28,12 @@ After compilation,
     
   running count_duplicates.py -
     python .\count_duplicates.py
+    
+  running html_downloads.py - 
+    python .\html_downloads.py
+    
+    Enter the name of a file containing urls 
+    For eg. Task1_BFS
     
 Maximum depth reached in
   Task 1 BFS - 3
