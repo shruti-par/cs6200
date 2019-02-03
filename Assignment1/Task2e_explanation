@@ -1,0 +1,10 @@
+The focused BFS resulted in a 1000 urls containing the one or more of the keywords entered by the user.
+This search tended to be restricted to the entered keywords and thus closer to the seed url. But, as the depth increased the topic started
+diverging away from the seed url.
+
+To handle keyword variations -
+  I first converted both the keywords and the url to lowercase. I also replaced any spaces between the phrases with underscores so as to
+  increase the probablity of finding them in urls.
+  
+I considered the following variations - 
+  Martian|Rover|Orbit|Pathfinder|Mars Mission|Mars Exploration|Red Planet
