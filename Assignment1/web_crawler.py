@@ -170,6 +170,6 @@ if __name__ == "__main__":
     dup_file = open("Duplicate_links_Task2.txt", "w")
     for url in focused_crawler.duplicate:
         # print(url, "\t", focused_crawler.duplicate[url])
-        dup_file.write(url + "\t" + str(focused_crawler.duplicate[url]))
+        dup_file.write(url + "\t" + str(focused_crawler.duplicate[url]) + "\n")
 
     dup_file.close()

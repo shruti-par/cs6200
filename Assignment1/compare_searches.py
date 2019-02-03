@@ -1,4 +1,4 @@
-
+# Program to compare BFS and DFS and print the number of overlapping links
 bfs_file = open('Task1_BFS.txt', 'r')
 dfs_file = open('Task1_DFS.txt', 'r')
 
