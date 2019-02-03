@@ -6,6 +6,7 @@ Coded in version - Python 3.7.2
 Files to be executed - 
   web_crawler.py
   compare_searches.py
+  count_duplicates.py
   
 Libraries used - 
   requests
@@ -22,6 +23,9 @@ After compilation,
     
   running compare_searches.py - 
     python .\compare_searches.py
+    
+  running count_duplicates.py -
+    python .\count_duplicates.py
     
 Maximum depth reached in
   Task 1 BFS - 3
