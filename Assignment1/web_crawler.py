@@ -58,6 +58,9 @@ class WebCrawler(object):
 
         for kw in self.keywords:
 
+            if kw.find(" ") != -1:
+                self.keywords[self.keywords.index(kw)] = kw.replace(" ", "_")
+
             if url.lower().find(kw) != -1 or (text and text.lower().find(kw) != -1):
                 return True
 
