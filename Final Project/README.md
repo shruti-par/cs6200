@@ -35,7 +35,7 @@ this project will be extracted.
 Implementation of TFIDF, Query Likelihood Model (JM smoothed) and BM25 using python. The program internally 
 call Indexer.py and Parser.py to parse and index the corpus.
 
-Implementation of Luceneâ€™s default retrieval model using Java. The helper program Query_cleaning.py cleans 
+Implementation of Lucene's default retrieval model using Java. The helper program Query_cleaning.py cleans 
 the queries so that they can be used by Lucene.
 
 Run the following commands - <br>
