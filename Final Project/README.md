@@ -91,4 +91,4 @@ KL_Divergence.py<br>
 
 
 <b><i> All the outputs are stored in the Outputs Folder and all the evaluation results, along with
- the compiled evaluations and MAP-MRR summary are stored in Evaluation folder.<b><i>
+ the compiled evaluations and MAP-MRR summary are stored in Evaluation folder.</b></i>
